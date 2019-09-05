@@ -6,4 +6,33 @@ body{
                         "sextion"
                         "footer";
     grid-template-columns: 100vw;
+    margin: 0;
+}
+header{
+    background-image: url(../images/Siri-Cascudo-Lanches.png);
+    background-size: cover;
+    grid-area: banner;
+    height: 280px;
+}
+nav{
+    align-items: center;
+    background-color: #d3bbde;
+    display: flex;
+    grid-area: nav;
+    height: 45px;
+    justify-content: space-between;
+    padding: 0 10px;                         /*espaço entre borda e margem*/
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}nav div span{
+    background-color: black;
+    height: 3px;
+    width: 30px;
+}
+nav img{
+    height: 32px;
 }
